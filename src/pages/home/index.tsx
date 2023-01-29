@@ -86,8 +86,8 @@ export default function home() {
             (export) shipments.
           </div>
           <div className="products-services__cards cards">
-            {ProductsServices.map((data) => (
-              <div className="cards__card card">
+            {ProductsServices.map((data, index) => (
+              <div key={index} className="cards__card card">
                 <img src={data.imgUrl} alt="" />
                 <div className="card__content">
                   <div className="card__title">{data.title}</div>
