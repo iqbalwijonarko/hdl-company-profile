@@ -39,23 +39,42 @@ export const MenuList: Array<MenuOption> = [
 ];
 
 function MenuBar() {
+  const router = useRouter();
+  const pathRoute: string = router.pathname;
+
   return (
     <AppBar position="static">
       <Grid container>
         <Grid className="menu-bar" md={2} sm={2}>
-          <img src={"/hdl-logo.svg"} alt="hdl-logo" />
+          {MenuList.map(
+            (data) =>
+              data.label === "Home" && (
+                <>
+                  <Link href={data.url} className="menu-bar__label">
+                    <img src={"/hdl-logo.svg"} alt="hdl-logo" />
+                  </Link>
+                </>
+              )
+          )}
         </Grid>
-        <Grid className="menu-bar" md={10} sm={10}>
+        <Grid
+          className="menu-bar"
+          md={10}
+          sm={10}
+          style={{ justifyContent: "flex-end" }}
+        >
           {MenuList.map((data) => (
             <>
-              <Typography
-                className="menu-bar__label"
-                variant="h6"
-                component="div"
-                sx={{ flexGrow: 1 }}
+              <span
+                className={clsx({
+                  ["menu-bar__label"]: true,
+                  ["menu-bar__labelActive"]: Boolean(pathRoute),
+                })}
               >
-                {data.label}
-              </Typography>
+                <Link href={data.url} className="menu-bar__label">
+                  {data.label}
+                </Link>
+              </span>
             </>
           ))}
         </Grid>
