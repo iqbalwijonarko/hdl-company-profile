@@ -7,7 +7,6 @@ import Button from "@mui/material/Button";
 import IconButton from "@mui/material/IconButton";
 import { Grid } from "@mui/material";
 // import MenuIcon from '@mui/icons-material/Menu';
-import "./_menuBar.scss"
 
 export type MenuOption = {
   label: string;
@@ -37,26 +36,30 @@ export const MenuList: Array<MenuOption> = [
   },
 ];
 
-const MenuBar = () => {
+function MenuBar() {
   return (
     <AppBar position="static">
-      <Grid className="menu-bar">
-        {MenuList.map((data) => (
-          <>
-            <Typography
-              className="label"
-              variant="h6"
-              component="div"
-              sx={{ flexGrow: 1 }}
-            >
-              {data.label}
-            </Typography>
-          </>
-        ))}
-        <Button color="inherit">Login</Button>
+      <Grid container>
+        <Grid className="menu-bar" md={2} sm={2}>
+          <img src={"/hdl-logo.svg"} alt="hdl-logo" />
+        </Grid>
+        <Grid className="menu-bar" md={10} sm={10}>
+          {MenuList.map((data) => (
+            <>
+              <Typography
+                className="menu-bar__label"
+                variant="h6"
+                component="div"
+                sx={{ flexGrow: 1 }}
+              >
+                {data.label}
+              </Typography>
+            </>
+          ))}
+        </Grid>
       </Grid>
     </AppBar>
   );
-};
+}
 
 export default MenuBar;
