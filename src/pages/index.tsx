@@ -20,7 +20,6 @@ export default function Home() {
         <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet" />
       </Head>
       <main>
-        <MenuBar></MenuBar>
       </main>
     </>
   );

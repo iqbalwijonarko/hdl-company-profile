@@ -1,0 +1,36 @@
+.home {
+    &__landing-container {
+        height: 500px;
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        background-image: url('../../../public/home-landing.png');
+
+        .content {
+            width: 560px;
+    
+            &__company-name {
+                font-weight: 700;
+                font-size: 20px;
+                line-height: 140%;
+                color: #5483DF;
+            }
+    
+            &__title {
+                font-weight: 700;
+                font-size: 32px;
+                line-height: 140%;
+                color: white;
+                margin-bottom: 24px;
+            }
+    
+            &__description {
+                font-weight: 400;
+                font-size: 14px;
+                line-height: 160%;
+                color: #F4F4F4;
+            }
+        }
+    }
+
+}
