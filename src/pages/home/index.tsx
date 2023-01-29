@@ -1,6 +1,4 @@
-import Image from "next/image";
-
-import HomeLanding from "@/../public/home-landing.png";
+import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
 
 export type ProductServicesType = {
   imgUrl: string;
@@ -101,6 +99,8 @@ export default function home() {
           <button className="products-services__read-more">Read More</button>
         </div>
       </div>
+
+			<ContactUsInfo />
     </div>
   );
 }

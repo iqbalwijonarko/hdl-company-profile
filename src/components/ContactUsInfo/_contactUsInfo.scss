@@ -1,0 +1,127 @@
+.contact-us-info {
+    width: 90%;
+    margin: auto;
+    background: linear-gradient(rgba(0, 0, 0, 0.60), rgba(0, 0, 0, 0.60)), url('../../../public/contact-us-info-bg.jpg') no-repeat;
+    background-size: cover;
+    border-radius: 24px;
+
+    &__wrapper {
+        padding: 80px;
+        display: flex;
+    }
+
+    .left-content {
+        width: 50%;
+
+        &__title {
+            font-weight: 700;
+            font-size: 20px;
+            line-height: 140%;
+            color: #5483DF;
+        }
+
+        &__tagline {
+            font-weight: 700;
+            font-size: 32px;
+            line-height: 140%;
+            color: #F4F4F4;
+            margin-bottom: 24px;
+        }
+
+        &__message {
+            font-size: 14px;
+            line-height: 160%;
+            color: #FFFFFF;
+            margin-bottom: 40px;
+        }
+
+        &__btn {
+            padding: 16px 40px;
+            width: 168px;
+            height: 54px;
+            background: #FFFFFF;
+            border: 1px solid #1454B6;
+            box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.1);
+            border-radius: 8px;
+            font-weight: 700;
+            font-size: 16px;
+            line-height: 140%;
+            color: #1454B6;
+            cursor: pointer;
+        }
+    }
+
+    .right-content {
+        display: flex;
+        align-items: center;
+
+        &__wrapper {
+            display: flex;
+            gap: 40px;
+        }
+
+        .email {
+            display: flex;
+            gap: 16px;
+            padding: 16px;
+            box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.1);
+            border-radius: 12px;
+            background-color: white;
+
+            &__logo-wrapper {
+                display: flex;
+                align-items: center;
+            }
+
+            &__logo {
+                width: 32px;
+                height: 32px;
+            }
+
+            &__label {
+                font-size: 12px;
+                line-height: 160%;
+                color: #666666;
+            }
+
+            &__value {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 140%;
+                color: #1F1F1F;
+            }
+        }
+
+        .phone {
+            display: flex;
+            gap: 16px;
+            padding: 16px;
+            box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.1);
+            border-radius: 12px;
+            background-color: white;
+
+            &__logo-wrapper {
+                display: flex;
+                align-items: center;
+            }
+
+            &__logo {
+                width: 32px;
+                height: 32px;
+            }
+
+            &__label {
+                font-size: 12px;
+                line-height: 160%;
+                color: #666666;
+            }
+
+            &__value {
+                font-weight: 700;
+                font-size: 14px;
+                line-height: 140%;
+                color: #1F1F1F;
+            }
+        }
+    }
+}
