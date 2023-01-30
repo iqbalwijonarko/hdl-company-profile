@@ -103,6 +103,16 @@
       line-height: 140%;
       color: #1454b6;
       cursor: pointer;
+
+      &:hover {
+        color: #ffffff;
+        background-color: #1454b6;
+        transition: ease-in 0.1s;
+      }
+    }
+
+    a {
+      text-decoration: none;
     }
   }
 }

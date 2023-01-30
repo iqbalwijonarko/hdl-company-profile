@@ -1,4 +1,5 @@
 import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
+import Link from "next/link";
 
 export type ProductServicesType = {
   imgUrl: string;
@@ -65,7 +66,11 @@ export default function home() {
               </div>
             ))}
           </div>
-          <button className="products-services__read-more">Read More</button>
+          <Link href='/about-us' className="product-services__link">  
+            <button className="products-services__read-more">
+              Read More
+            </button>
+          </Link>
         </div>
       </div>
 

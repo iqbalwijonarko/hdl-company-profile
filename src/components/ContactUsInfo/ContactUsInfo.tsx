@@ -10,7 +10,6 @@ export default function ContactUsInfo() {
           <div className="left-content__message">
             Join the largest coal mining connections!
           </div>
-          <button className="left-content__btn">Contact Us</button>
         </div>
         <div className="contact-us-info__right-content right-content">
           <div className="right-content__wrapper">
