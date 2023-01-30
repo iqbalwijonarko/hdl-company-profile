@@ -1,12 +1,9 @@
-import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
+import HeroHeader from "@/components/HeroHeader/HeroHeader";
 
 export default function ProductsAndServices() {
   return (
     <div className="products-and-services">
-      <div className="products-and-services__landing-container">
-      </div>
-      
-      <ContactUsInfo />
+        <HeroHeader title="Products and Services" />
     </div>
   );
 }

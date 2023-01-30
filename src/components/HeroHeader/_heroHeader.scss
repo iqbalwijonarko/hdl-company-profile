@@ -1,0 +1,45 @@
+.hero-header {
+    .wrapper {
+        margin-bottom: 100px;
+        height: 300px;
+        color: white;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        background-image: url("../../../public/product-and-services-landing.jpg");
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        
+        span {
+            display: inline;
+        }
+
+        &__title {
+            font-weight: 700;
+            font-size: 64px;
+            line-height: 140%;
+            text-align: center;
+        }
+
+        &__subtitle {
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        &__text {
+            font-size: 14px;
+            line-height: 160%;
+        }
+
+        &__page-title {
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 140%;
+            text-align: center;
+            color: #BBD0FB;
+        }
+
+    }
+}
