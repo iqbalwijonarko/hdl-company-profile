@@ -93,7 +93,6 @@ export default function Footer() {
           </a>
           <a className="right-content__navigation-item">CSR Programs</a>
           <a className="right-content__navigation-item">News</a>
-          <a className="right-content__navigation-item">Contact Us</a>
         </div>
         <div className="right-content__social-icons">
           {SocialMediaList.map((data) => (
