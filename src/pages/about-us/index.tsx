@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
 import { Grid, Typography } from "@mui/material";
 
@@ -9,25 +10,25 @@ export type BoardOfDirectorsType = {
 
 export const BoardOfDirectors: Array<BoardOfDirectorsType> = [
   {
-    imgUrl: "/person1.svg",
+    imgUrl: "/person1.webp",
     title: "Coal Procurement",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    imgUrl: "/person2.svg",
+    imgUrl: "/person2.webp",
     title: "Local Delivery & Export",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    imgUrl: "/person3.svg",
+    imgUrl: "/person3.webp",
     title: "Product Consulting",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
   },
   {
-    imgUrl: "/person4.svg",
+    imgUrl: "/person4.webp",
     title: "Product Consulting",
     description:
       "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
@@ -143,7 +144,7 @@ export default function AboutUs() {
           <div className="products-services__cards cards">
             {BoardOfDirectors.map((data, index) => (
               <div key={index} className="cards__card card">
-                <img src={data.imgUrl} alt="" />
+                <Image src={data.imgUrl} alt="" width={240} height={240}/>
                 <div className="card__content">
                   <div className="card__title">{data.title}</div>
                   <div className="card__description">{data.description}</div>
