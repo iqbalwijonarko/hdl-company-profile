@@ -100,7 +100,7 @@ export default function home() {
         </div>
       </div>
 
-			<ContactUsInfo />
+      <ContactUsInfo />
     </div>
   );
 }
