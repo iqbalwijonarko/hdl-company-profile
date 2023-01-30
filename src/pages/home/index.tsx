@@ -45,37 +45,6 @@ export default function home() {
         </div>
       </div>
 
-      <div className="home__about-us about-us">
-        <div className="about-us__content content">
-          <div className="content__wrapper">
-            <div className="content__title">About Us</div>
-            <div className="content__company-name">
-              PT Hasta Dwiyustama Logistik
-            </div>
-            <div className="content__description">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-              <br />
-              <br />
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
-              sunt in culpa qui officia deserunt mollit anim id est laborum
-            </div>
-          </div>
-        </div>
-
-        <img src={"/home-about-us.png"} alt="about-us" />
-      </div>
-
       <div className="home__products-services products-services">
         <div className="products-services__wrapper">
           <div className="products-services__title">
@@ -88,7 +57,7 @@ export default function home() {
           <div className="products-services__cards cards">
             {ProductsServices.map((data, index) => (
               <div key={index} className="cards__card card">
-                <img src={data.imgUrl} alt="" />
+                <img className="card__img" src={data.imgUrl} alt="" />
                 <div className="card__content">
                   <div className="card__title">{data.title}</div>
                   <div className="card__description">{data.description}</div>

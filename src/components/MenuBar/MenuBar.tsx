@@ -31,11 +31,7 @@ export const MenuList: Array<MenuOption> = [
   {
     label: "CSR Programs",
     url: "/csr-programs",
-  },
-  {
-    label: "Contact Us",
-    url: "/contact-us",
-  },
+  }
 ];
 
 function MenuBar() {
