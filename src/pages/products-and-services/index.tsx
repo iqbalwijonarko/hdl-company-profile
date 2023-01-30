@@ -89,8 +89,8 @@ export default function ProductsAndServices() {
 					))}
 			</div>
 			<div className="products-and-services__products products">
-				{ProductsList.map((data) => (
-					<div className={`products__wrapper ${data.reverse && 'reverse'}`}>
+				{ProductsList.map((data, index) => (
+					<div key={index} className={`products__wrapper ${data.reverse && 'reverse'}`}>
 						<img className="products__img" src={"/product-1.png"} alt="" />
 						<div className="products__content">
 							<div className="products__accent">XX</div>
