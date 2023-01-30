@@ -94,8 +94,8 @@ export default function Footer() {
           <a className="right-content__navigation-item">CSR Programs</a>
         </div>
         <div className="right-content__social-icons">
-          {SocialMediaList.map((data) => (
-            <img className="right-content__icon" src={data.imgUrl} alt="" />
+          {SocialMediaList.map((data, index) => (
+            <img key={index} className="right-content__icon" src={data.imgUrl} alt="" />
           ))}
         </div>
       </div>
