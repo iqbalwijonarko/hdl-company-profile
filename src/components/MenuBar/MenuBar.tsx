@@ -18,7 +18,7 @@ export type MenuOption = {
 export const MenuList: Array<MenuOption> = [
   {
     label: "Home",
-    url: "/home",
+    url: "/",
   },
   {
     label: "About Us",

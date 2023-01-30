@@ -5,9 +5,11 @@ import styles from "@/styles/Home.module.scss";
 
 import MenuBar from "@/components/MenuBar/MenuBar";
 
+import Home from "@/pages/home/index";
+
 const inter = Inter({ subsets: ["latin"] });
 
-export default function Home() {
+export default function Index() {
   return (
     <>
       <Head>
@@ -22,11 +24,12 @@ export default function Home() {
           crossOrigin="true"
         />
         <link
-          href="https://fonts.googleapis.com/css2?family=Inter&display=swap"
-          rel="stylesheet"
-        />
+          href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+          rel="stylesheet" />
       </Head>
-      <main></main>
+      <main>
+        <Home />
+      </main>
     </>
   );
 }
