@@ -19,6 +19,30 @@ export const Documentation: Array<DocumentationType> = [
   {
     imgUrl: "/documTmp.png",
   },
+  {
+    imgUrl: "/documTmp.png",
+  },
+  {
+    imgUrl: "/documTmp.png",
+  },
+  {
+    imgUrl: "/documTmp.png",
+  },
+  {
+    imgUrl: "/documTmp.png",
+  },
+  {
+    imgUrl: "/documTmp.png",
+  },
+  {
+    imgUrl: "/documTmp.png",
+  },
+  {
+    imgUrl: "/documTmp.png",
+  },
+  {
+    imgUrl: "/documTmp.png",
+  },
 ];
 
 export const ProductsAndServices = [
