@@ -10,6 +10,11 @@
         background-position: center;
         background-size: cover;
         background-repeat: no-repeat;
+
+        @media screen and (max-width: 800px) {
+            margin-bottom: 40px;
+            padding: 0 10px;
+        }
         
         span {
             display: inline;
@@ -20,6 +25,10 @@
             font-size: 64px;
             line-height: 140%;
             text-align: center;
+
+            @media screen and (max-width: 800px) {
+                font-size: 36px;
+            }
         }
 
         &__subtitle {

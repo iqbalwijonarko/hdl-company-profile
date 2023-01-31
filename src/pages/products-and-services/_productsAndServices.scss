@@ -1,12 +1,21 @@
 .products-and-services {
     .company-info {
+      margin-top: 7rem;
+
+      @media screen and (max-width: 800px) {
+          margin-top: 0;
+      }
+
       &__title {
         text-align: center;
         font-weight: 700;
         font-size: 32px;
         line-height: 140%;
         color: #1f1f1f;
-        margin-top: 5rem;
+        
+        @media screen and (max-width: 800px) {
+            font-size: 26px;
+        }
       }
   
       .highlight-text {
@@ -17,6 +26,11 @@
         font-weight: 700;
         font-size: 16px;
         line-height: 140%;
+
+        @media screen and (max-width: 800px) {
+            margin: 0;
+            padding: 30px;
+        }
   
         &__sub-text {
           font-weight: 400;
@@ -49,69 +63,40 @@
         color: #444444;
         margin-bottom: 40px;
       }
-  
-      .cards {
-        display: flex;
-        gap: 48px;
-        margin-bottom: 40px;
-  
-        .card {
-          width: 320px;
-          height: 391px;
-          box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.17);
-          -webkit-box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.17);
-          -moz-box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.17);
-  
-          &__content {
-            padding: 24px 16px;
-          }
-  
-          &__title {
-            font-weight: 700;
-            font-size: 18px;
-            line-height: 140%;
-            color: #1f1f1f;
-          }
-  
-          &__description {
-            font-size: 14px;
-            line-height: 160%;
-            color: #444444;
-          }
-        }
-      }
-  
-      &__read-more {
-        display: block;
-        margin: auto;
-        padding: 16px 40px;
-        width: 164px;
-        height: 54px;
-        background: #ffffff;
-        border: 1px solid #1454b6;
-        box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.1);
-        border-radius: 8px;
-        font-weight: 700;
-        font-size: 16px;
-        line-height: 140%;
-        color: #1454b6;
-        cursor: pointer;
-      }
     }
 
     .products {
         margin-bottom: 120px;
+
+        @media screen and (max-width: 800px) {
+            padding: 0 30px;
+            margin-bottom: 50px;
+        }
         
         &__wrapper {
             display: flex;
+
+            @media screen and (max-width: 800px) {
+                flex-direction: column;
+                gap: 30px;
+                margin-bottom: 30px;
+            }
         }
 
         .reverse {
             flex-direction: row-reverse;
+
+            @media screen and (max-width: 800px) {
+                flex-direction: column;
+            }
         }
 
         &__img {
             width: 50%;
+
+            @media screen and (max-width: 800px) {
+                width: 100%;
+            }
         }
 
         &__content {
@@ -120,6 +105,11 @@
             display: flex;
             flex-direction: column;
             justify-content: center;
+
+            @media screen and (max-width: 800px) {
+                width: 100%;
+                padding: 0;
+            }
         }
 
         &__accent {
