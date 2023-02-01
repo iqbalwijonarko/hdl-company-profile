@@ -1,6 +1,6 @@
-import Image from 'next/image'
+import Image from "next/image";
 import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
-import { Grid, Typography } from "@mui/material";
+import { Theme, useMediaQuery, useTheme } from "@material-ui/core";
 
 export type BoardOfDirectorsType = {
   imgUrl: string;
@@ -82,6 +82,11 @@ export const History = [
 ];
 
 export default function AboutUs() {
+  const theme = useTheme();
+  const isMobile = useMediaQuery((baseTheme: Theme) =>
+    theme.breakpoints.down("md")
+  );
+
   return (
     <div className="about-us">
       <div className="about-us__landing-container">
@@ -144,7 +149,7 @@ export default function AboutUs() {
           <div className="products-services__cards cards">
             {BoardOfDirectors.map((data, index) => (
               <div key={index} className="cards__card card">
-                <Image src={data.imgUrl} alt="" width={240} height={240}/>
+                <img className="card__img" src={data.imgUrl} alt="" />
                 <div className="card__content">
                   <div className="card__title">{data.title}</div>
                   <div className="card__description">{data.description}</div>

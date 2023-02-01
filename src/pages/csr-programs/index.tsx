@@ -77,7 +77,9 @@ export default function CsrPrograms() {
     <div className="csr-programs">
       <HeroHeader title="CSR Programs" />
       <div className="csr-programs__company-info company-info">
-        <div className="company-info__title">Corporate Social Responsibility</div>
+        <div className="company-info__title">
+          Corporate Social Responsibility
+        </div>
         {ProductsAndServices.map((data) => (
           <>
             <div className="company-info__highlight-text highlight-text">

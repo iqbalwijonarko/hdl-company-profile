@@ -92,14 +92,19 @@ export default function Footer() {
           </div>
           <div className="right-content__social-icons">
             {SocialMediaList.map((data, index) => (
-              <img key={index} className="right-content__icon" src={data.imgUrl} alt="" />
+              <img
+                key={index}
+                className="right-content__icon"
+                src={data.imgUrl}
+                alt=""
+              />
             ))}
           </div>
         </div>
       </div>
       <div className="footer__copyright">
-          Copyright © 2023 PT Hasta Dwiyustama Logistik
-        </div>
+        Copyright © 2023 PT Hasta Dwiyustama Logistik
+      </div>
     </div>
   );
 }

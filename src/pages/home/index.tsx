@@ -66,10 +66,11 @@ export default function home() {
               </div>
             ))}
           </div>
-          <Link href='/products-and-services' className="product-services__link">  
-            <button className="products-services__read-more">
-              Read More
-            </button>
+          <Link
+            href="/products-and-services"
+            className="product-services__link"
+          >
+            <button className="products-services__read-more">Read More</button>
           </Link>
         </div>
       </div>
