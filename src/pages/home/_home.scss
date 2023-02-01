@@ -137,6 +137,10 @@
       color: #1454b6;
       cursor: pointer;
 
+      @media screen and (max-width: 800px) {
+        font-size: 14px;
+      }
+
       &:hover {
         color: #ffffff;
         background-color: #1454b6;
