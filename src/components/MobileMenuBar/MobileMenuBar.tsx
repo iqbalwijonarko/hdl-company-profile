@@ -65,7 +65,7 @@ function MobileMenuBar() {
               data.label === "Home" && (
                 <>
                   <Link href={data.url} className="menu-bar__label">
-                    <img src={"/hdl-logo.svg"} alt="hdl-logo" />
+                    <img src={"/logo_compressed.png"} alt="hdl-logo" />
                   </Link>
                 </>
               )
@@ -108,7 +108,7 @@ function MobileMenuBar() {
                 data.label === "Home" && (
                   <>
                     <Link href={data.url} className="menu-bar__label">
-                      <img src={"/hdl-logo.svg"} alt="hdl-logo" />
+                      <img src={"/logo_compressed.png"} alt="hdl-logo" />
                     </Link>
                   </>
                 )
