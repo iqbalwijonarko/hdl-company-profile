@@ -45,11 +45,11 @@ export default function Footer() {
             <div className="contact-us__title">Contact Us</div>
             <div className="contact-us__items">
               <img src={"/email-outline.svg"} alt="email-outline" />
-              <div>info@hastalogistik.com</div>
+              <div>hastadwiyustama.logistik@gmail.com</div>
             </div>
             <div className="contact-us__items">
               <img src={"/phone-outline.svg"} alt="phone-outline" />
-              <div>021-403-2000</div>
+              <div>+62 812 9466 0697</div>
             </div>
           </div>
         </div>
@@ -57,26 +57,30 @@ export default function Footer() {
         <div className="footer__center-content center-content">
           <div className="center-content__title">Head Office</div>
           <div className="center-content__detail">
-            Equity Tower 41th Floor Suite E
-            <br />
             Sudirman Central Business Disctrict (SCBD)
             <br />
-            Jl. Jend. Sudirman Kav. 52-53 Lot 9
+            Jl. Yos Sudarso No. 12 Panjang Selatan, Panjang
             <br />
-            Jakarta 12190
+            Bandar Lampung 35243
             <br />
-            Telp : (+62-21) 2903 5022 (Hunting),
-            <br />
-            Fax : (+62-21) 2903 5021
+            Telp : +62 812 9466 0697
           </div>
 
           <div className="center-content__title">Plant Site</div>
           <div className="center-content__detail">
-            Jalan Cisauk Lapan Kav Erpak No. 33a
+            Jalan Soekarno Hatta Km. 7 Gang Multi
             <br />
-            Suradita Village, Cisauk District, Tangerang
+            Kelurahan Ketapang, Kecamatan Panjang 
             <br />
-            Regency, Banten Province 15341
+            Kota Bandar Lampung, Lampung, Indonesia
+          </div>
+          <br />
+          <div className="center-content__detail">
+            Jl. Ir. Sutami Dusun 02, Desa Lematang
+            <br />
+            Kecamatan Tanjung Bintang
+            <br />
+            Kabupaten Lampung Selatan, Lampung, Indonesia
           </div>
         </div>
 

@@ -2,74 +2,28 @@ import HeroHeader from "@/components/HeroHeader/HeroHeader";
 import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
 
 export const ProductsAndServicesList = [
-  {
-    text: "Lorem Ipsum",
-    subText: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-    ],
-  },
-  {
-    text: "Lorem Ipsum",
-    subText: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-    ],
-  },
-  {
-    text: "Lorem Ipsum",
-    subText: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-    ],
-  },
+  "Stock Fields rent",
+  "Land transportation",
+  "Freight forwarding service",
+  "Warehousing"
 ];
 
 export const ProductsList = [
   {
-    imgUrl: "/product-1.png",
-    title: "Product A",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    reverse: false,
+    imgUrl: "/product-1.jpg",
+    title: "Ketapang Stock Field",
+    landArea: "2 hectares",
+    capacity: "200.000 MT",
+    address: "Jalan Soekarno Hatta Km. 7 Gang Multi, Kelurahan Ketapang, Kecamatan Panjang, Kota Bandar Lampung, Lampung, Indonesia",
+    reverse: false
   },
   {
-    imgUrl: "/product-1.png",
-    title: "Product A",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    reverse: false,
-  },
-  {
-    imgUrl: "/product-1.png",
-    title: "Product A",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    reverse: false,
-  },
-  {
-    imgUrl: "/product-1.png",
-    title: "Product B",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    reverse: true,
-  },
-  {
-    imgUrl: "/product-1.png",
-    title: "Product B",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    reverse: true,
-  },
-  {
-    imgUrl: "/product-1.png",
-    title: "Product B",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-    reverse: true,
+    imgUrl: "/product-2.jpg",
+    title: "Lematang Stock Field",
+    landArea: "5 hectares",
+    capacity: "500.000 MT",
+    address: "Jl. Ir. Sutami Dusun 02, Desa Lematang, Kecamatan Tanjung Bintang, Kabupaten Lampung Selatan, Lampung, Indonesia",
+    reverse: true
   },
 ];
 
@@ -79,20 +33,15 @@ export default function ProductsAndServices() {
       <HeroHeader title="Products and Services" />
       <div className="products-and-services__company-info company-info">
         <div className="company-info__title">Products and Services</div>
-        {ProductsAndServicesList.map((data) => (
-          <>
-            <div className="company-info__highlight-text highlight-text">
-              {data.text}
-              {data.subText.map((sub) => (
-                <>
-                  <ul>
-                    <li className="highlight-text__sub-text">{sub}</li>
-                  </ul>
-                </>
-              ))}
-            </div>
-          </>
-        ))}
+        <ul>
+          {ProductsAndServicesList.map((data) => (
+            <>
+              <li className="company-info__highlight-text highlight-text">
+                {data}
+              </li>
+            </>
+          ))}
+        </ul>
       </div>
       <div className="products-and-services__products products">
         {ProductsList.map((data, index) => (
@@ -100,11 +49,15 @@ export default function ProductsAndServices() {
             key={index}
             className={`products__wrapper ${data.reverse && "reverse"}`}
           >
-            <img className="products__img" src={"/product-1.png"} alt="" />
+            <img className="products__img" src={data.imgUrl} alt="" />
             <div className="products__content">
               <div className="products__accent">XX</div>
               <div className="products__title">{data.title}</div>
-              <div className="products__description">{data.description}</div>
+              <ul>
+                <li>Land area: {data.landArea}</li>
+                <li>Capacity up to: {data.capacity}</li>
+                <li>Address: {data.address}</li>
+              </ul>
             </div>
           </div>
         ))}

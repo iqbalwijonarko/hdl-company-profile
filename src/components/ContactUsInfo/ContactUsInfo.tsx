@@ -19,7 +19,7 @@ export default function ContactUsInfo() {
               </div>
               <div className="email__wrapper">
                 <div className="email__label">Email</div>
-                <div className="email__value">info@hastalogistik.com</div>
+                <div className="email__value">hastadwiyustama.logistik@gmail.com</div>
               </div>
             </div>
             <div className="right-content__phone phone">
@@ -28,7 +28,7 @@ export default function ContactUsInfo() {
               </div>
               <div className="phone__wrapper">
                 <div className="phone__label">Phone</div>
-                <div className="phone__value">info@hastalogistik.com</div>
+                <div className="phone__value">+62 812 9466 0697</div>
               </div>
             </div>
           </div>
