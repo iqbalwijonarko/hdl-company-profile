@@ -38,7 +38,12 @@ export default function home() {
           </div>
           <div className="content__title">Best Coal Company</div>
           <div className="content__description">
-            PT. HASTA DWIYUSTAMA LOGISTIK is an Indonesian company which primarily develops and provides land to use as a coal stock field and warehouse especially in Lampung Province, Indonesia. Established in 2021, PT. Hasta Dwiyustama Logistik also known as HDL becomes a leading company in providing coal stock field in Lampung Province, Indonesia.
+            PT. HASTA DWIYUSTAMA LOGISTIK is an Indonesian company which
+            primarily develops and provides land to use as a coal stock field
+            and warehouse especially in Lampung Province, Indonesia. Established
+            in 2021, PT. Hasta Dwiyustama Logistik also known as HDL becomes a
+            leading company in providing coal stock field in Lampung Province,
+            Indonesia.
           </div>
         </div>
       </div>

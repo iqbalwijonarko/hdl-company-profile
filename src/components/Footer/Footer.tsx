@@ -70,7 +70,7 @@ export default function Footer() {
           <div className="center-content__detail">
             Jalan Soekarno Hatta Km. 7 Gang Multi
             <br />
-            Kelurahan Ketapang, Kecamatan Panjang 
+            Kelurahan Ketapang, Kecamatan Panjang
             <br />
             Kota Bandar Lampung, Lampung, Indonesia
           </div>

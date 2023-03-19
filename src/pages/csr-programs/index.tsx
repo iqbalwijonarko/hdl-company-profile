@@ -8,40 +8,13 @@ export type DocumentationType = {
 
 export const Documentation: Array<DocumentationType> = [
   {
-    imgUrl: "/documTmp.png",
+    imgUrl: "/doc1.jpg",
   },
   {
-    imgUrl: "/documTmp.png",
+    imgUrl: "/doc2.jpg",
   },
   {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
-  },
-  {
-    imgUrl: "/documTmp.png",
+    imgUrl: "/doc3.jpg",
   },
 ];
 

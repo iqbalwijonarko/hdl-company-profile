@@ -5,7 +5,7 @@ export const ProductsAndServicesList = [
   "Stock Fields rent",
   "Land transportation",
   "Freight forwarding service",
-  "Warehousing"
+  "Warehousing",
 ];
 
 export const ProductsList = [
@@ -14,16 +14,18 @@ export const ProductsList = [
     title: "Ketapang Stock Field",
     landArea: "2 hectares",
     capacity: "200.000 MT",
-    address: "Jalan Soekarno Hatta Km. 7 Gang Multi, Kelurahan Ketapang, Kecamatan Panjang, Kota Bandar Lampung, Lampung, Indonesia",
-    reverse: false
+    address:
+      "Jalan Soekarno Hatta Km. 7 Gang Multi, Kelurahan Ketapang, Kecamatan Panjang, Kota Bandar Lampung, Lampung, Indonesia",
+    reverse: false,
   },
   {
     imgUrl: "/product-2.jpg",
     title: "Lematang Stock Field",
     landArea: "5 hectares",
     capacity: "500.000 MT",
-    address: "Jl. Ir. Sutami Dusun 02, Desa Lematang, Kecamatan Tanjung Bintang, Kabupaten Lampung Selatan, Lampung, Indonesia",
-    reverse: true
+    address:
+      "Jl. Ir. Sutami Dusun 02, Desa Lematang, Kecamatan Tanjung Bintang, Kabupaten Lampung Selatan, Lampung, Indonesia",
+    reverse: true,
   },
 ];
 
