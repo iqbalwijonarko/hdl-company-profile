@@ -49,7 +49,7 @@ export default function CsrPrograms() {
   return (
     <div className="csr-programs">
       <HeroHeader title="CSR Programs" />
-      <div className="csr-programs__company-info company-info">
+      {/* <div className="csr-programs__company-info company-info">
         <div className="company-info__title">
           Corporate Social Responsibility
         </div>
@@ -67,7 +67,7 @@ export default function CsrPrograms() {
             </div>
           </>
         ))}
-      </div>
+      </div> */}
 
       <div className="about-us__products-services products-services">
         <div className="products-services__wrapper">

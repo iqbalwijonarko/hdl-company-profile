@@ -126,6 +126,9 @@
         font-size: 14px;
         line-height: 140%;
         color: #1f1f1f;
+        @media screen and (max-width: 800px) {
+          font-size: 12px;
+        }
       }
     }
 
