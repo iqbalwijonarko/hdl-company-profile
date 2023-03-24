@@ -36,6 +36,10 @@
       display: flex;
       justify-content: center;
       gap: 10px;
+
+      @media screen and (max-width: 800px) {
+        gap: 3px;
+      }
     }
 
     &__text {
@@ -49,6 +53,9 @@
       line-height: 140%;
       text-align: center;
       color: #bbd0fb;
+      @media screen and (max-width: 800px) {
+        line-height: 160%;
+      }
     }
   }
 }

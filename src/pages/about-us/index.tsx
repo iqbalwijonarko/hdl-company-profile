@@ -37,7 +37,7 @@ export const Overview = [
     ],
   },
   {
-    text: "CERTIFICATES AND PERMITS",
+    text: "Certificates and Permits",
     subText: [
       "Surat Persetujuan Teknis Hasil Analisis Dampak Lalu Lintas dari Direktur Jenderal \nPerhubungan Darat Nomor : KP.618/LT.408/DJPD-ANDALALIN/2022",
       "Surat Izin Lingkungan (UKL-UPL) from Dinas Lingkungan Hidup Kota Bandar Lampung",

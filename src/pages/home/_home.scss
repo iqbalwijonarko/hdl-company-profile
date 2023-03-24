@@ -25,6 +25,10 @@
         font-size: 20px;
         line-height: 140%;
         color: #5483df;
+        
+        @media screen and (max-width: 800px) {
+          font-size: 22px;
+        }
       }
 
       &__title {
@@ -35,7 +39,7 @@
         margin-bottom: 24px;
 
         @media screen and (max-width: 800px) {
-          font-size: 30px;
+          font-size: 17px;
         }
       }
 
@@ -46,7 +50,7 @@
         color: #f4f4f4;
 
         @media screen and (max-width: 800px) {
-          text-align: center;
+          text-align: justify;
         }
       }
     }
@@ -118,6 +122,10 @@
           font-size: 14px;
           line-height: 160%;
           color: #444444;
+          
+          @media screen and (max-width: 800px) {
+            text-align: justify;
+          }
         }
       }
     }
@@ -125,7 +133,7 @@
     &__read-more {
       display: block;
       margin: auto;
-      padding: 16px 40px;
+      padding: 16px 20px;
       width: 164px;
       height: 54px;
       background: #ffffff;

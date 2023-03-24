@@ -36,7 +36,7 @@ export default function home() {
           <div className="content__company-name">
             PT Hasta Dwiyustama Logistik
           </div>
-          <div className="content__title">Best Coal Company</div>
+          <div className="content__title">Stockpile and Warehouses Handling</div>
           <div className="content__description">
             PT. HASTA DWIYUSTAMA LOGISTIK is an Indonesian company which
             primarily develops and provides land to use as a coal stock field
