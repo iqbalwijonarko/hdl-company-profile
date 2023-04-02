@@ -33,7 +33,7 @@ export const Overview = [
       "CV. LAKSITA BUANA",
       "PT. TUGANG RIZKY ENERGI",
       "PT. RIZKY ANUGRAH PRATAMA",
-      "PT. BORNEO TRADE ENERGI",
+      "PT. LANGIT PURNAMA ABADI",
     ],
   },
   {

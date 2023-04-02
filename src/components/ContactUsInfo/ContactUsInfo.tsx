@@ -30,7 +30,7 @@ export default function ContactUsInfo() {
               </div>
               <div className="phone__wrapper">
                 <div className="phone__label">Phone</div>
-                <div className="phone__value">+62 812 9466 0697</div>
+                <div className="phone__value">+62 812 5070 9912</div>
               </div>
             </div>
           </div>

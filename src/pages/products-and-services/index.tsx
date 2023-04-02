@@ -2,9 +2,9 @@ import HeroHeader from "@/components/HeroHeader/HeroHeader";
 import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
 
 export const ProductsAndServicesList = [
-  "Stock Fields rent",
-  "Land transportation",
-  "Freight forwarding service",
+  "Stock Fields Rent",
+  "Land Transportation",
+  "Freight Forwarding Service",
   "Warehousing",
 ];
 

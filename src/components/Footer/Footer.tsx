@@ -49,7 +49,7 @@ export default function Footer() {
             </div>
             <div className="contact-us__items">
               <img src={"/phone-outline.svg"} alt="phone-outline" />
-              <div>+62 812 9466 0697</div>
+              <div>+62 812 5070 9912</div>
             </div>
           </div>
         </div>
@@ -57,13 +57,11 @@ export default function Footer() {
         <div className="footer__center-content center-content">
           <div className="center-content__title">Head Office</div>
           <div className="center-content__detail">
-            Sudirman Central Business Disctrict (SCBD)
-            <br />
             Jl. Yos Sudarso No. 12 Panjang Selatan, Panjang
             <br />
             Bandar Lampung 35243
             <br />
-            Telp : +62 812 9466 0697
+            Telp : +62 812 5070 9912
           </div>
 
           <div className="center-content__title">Plant Site</div>
