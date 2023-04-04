@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export type SocialMediaType = {
   imgUrl: string;
   url: string;
@@ -85,12 +87,26 @@ export default function Footer() {
         <div className="footer__right-content right-content">
           <div className="right-content__navigations">
             <div className="right-content__navigation-title">Navigation</div>
-            <a className="right-content__navigation-item">Home</a>
-            <a className="right-content__navigation-item">About Us</a>
-            <a className="right-content__navigation-item">
-              Products and Services
-            </a>
-            <a className="right-content__navigation-item">CSR Programs</a>
+            <span className="right-content__navigation-item">
+              <Link href="/home" className="right-content__navigation-item__link">
+                Home
+              </Link>
+            </span>
+            <span className="right-content__navigation-item">
+              <Link href="/about-us" className="right-content__navigation-item__link">
+                About Us
+              </Link>
+            </span>
+            <span className="right-content__navigation-item">
+              <Link href="/products-and-services" className="right-content__navigation-item__link">
+                Products and Services
+              </Link>
+            </span>
+            <span className="right-content__navigation-item">
+              <Link href="/csr-programs" className="right-content__navigation-item__link">
+                CSR Programs
+              </Link>
+            </span>
           </div>
           <div className="right-content__social-icons">
             {SocialMediaList.map((data, index) => (
