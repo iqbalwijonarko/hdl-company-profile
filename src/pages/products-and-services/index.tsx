@@ -53,7 +53,6 @@ export default function ProductsAndServices() {
           >
             <img className="products__img" src={data.imgUrl} alt="" />
             <div className="products__content">
-              <div className="products__accent">XX</div>
               <div className="products__title">{data.title}</div>
               <ul>
                 <li>Land area: {data.landArea}</li>

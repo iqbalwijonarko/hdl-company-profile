@@ -36,14 +36,13 @@ export default function home() {
           <div className="content__company-name">
             PT Hasta Dwiyustama Logistik
           </div>
-          <div className="content__title">Stockpile and Warehouses Handling</div>
+          <div className="content__title">
+            Stockpile and Warehouses Handling
+          </div>
           <div className="content__description">
-            PT. HASTA DWIYUSTAMA LOGISTIK is an Indonesian company which
-            primarily develops and provides land to use as a coal stock field
-            and warehouse especially in Lampung Province, Indonesia. Established
-            in 2021, PT. Hasta Dwiyustama Logistik also known as HDL becomes a
-            leading company in providing coal stock field in Lampung Province,
-            Indonesia.
+            PT. Hasta Dwiyustama Logistik is an Indonesian Company which
+            primarily provide lands to use as a coal stockfield/warehouses
+            especially in Lampung Provice, Indonesia.
           </div>
         </div>
       </div>
