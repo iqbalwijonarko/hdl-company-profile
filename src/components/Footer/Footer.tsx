@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export type SocialMediaType = {
   imgUrl: string;
   url: string;
@@ -49,7 +51,7 @@ export default function Footer() {
             </div>
             <div className="contact-us__items">
               <img src={"/phone-outline.svg"} alt="phone-outline" />
-              <div>+62 812 9466 0697</div>
+              <div>+62 812 5070 9912</div>
             </div>
           </div>
         </div>
@@ -57,20 +59,18 @@ export default function Footer() {
         <div className="footer__center-content center-content">
           <div className="center-content__title">Head Office</div>
           <div className="center-content__detail">
-            Sudirman Central Business Disctrict (SCBD)
-            <br />
             Jl. Yos Sudarso No. 12 Panjang Selatan, Panjang
             <br />
             Bandar Lampung 35243
             <br />
-            Telp : +62 812 9466 0697
+            Telp : +62 812 5070 9912
           </div>
 
           <div className="center-content__title">Plant Site</div>
           <div className="center-content__detail">
             Jalan Soekarno Hatta Km. 7 Gang Multi
             <br />
-            Kelurahan Ketapang, Kecamatan Panjang 
+            Kelurahan Ketapang, Kecamatan Panjang
             <br />
             Kota Bandar Lampung, Lampung, Indonesia
           </div>
@@ -87,12 +87,38 @@ export default function Footer() {
         <div className="footer__right-content right-content">
           <div className="right-content__navigations">
             <div className="right-content__navigation-title">Navigation</div>
-            <a className="right-content__navigation-item">Home</a>
-            <a className="right-content__navigation-item">About Us</a>
-            <a className="right-content__navigation-item">
-              Products and Services
-            </a>
-            <a className="right-content__navigation-item">CSR Programs</a>
+            <span className="right-content__navigation-item">
+              <Link
+                href="/home"
+                className="right-content__navigation-item__link"
+              >
+                Home
+              </Link>
+            </span>
+            <span className="right-content__navigation-item">
+              <Link
+                href="/about-us"
+                className="right-content__navigation-item__link"
+              >
+                About Us
+              </Link>
+            </span>
+            <span className="right-content__navigation-item">
+              <Link
+                href="/products-and-services"
+                className="right-content__navigation-item__link"
+              >
+                Products and Services
+              </Link>
+            </span>
+            <span className="right-content__navigation-item">
+              <Link
+                href="/csr-programs"
+                className="right-content__navigation-item__link"
+              >
+                CSR Programs
+              </Link>
+            </span>
           </div>
           <div className="right-content__social-icons">
             {SocialMediaList.map((data, index) => (

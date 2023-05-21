@@ -4,10 +4,10 @@ import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from 'react-responsive-carousel';
 
 export const ProductsAndServicesList = [
-  "Stock Fields rent",
-  "Land transportation",
-  "Freight forwarding service",
-  "Warehousing"
+  "Stock Fields Rent",
+  "Land Transportation",
+  "Freight Forwarding Service",
+  "Warehousing",
 ];
 
 export const ProductsList = [
@@ -20,8 +20,9 @@ export const ProductsList = [
     title: "Ketapang Stock Field",
     landArea: "2 hectares",
     capacity: "200.000 MT",
-    address: "Jalan Soekarno Hatta Km. 7 Gang Multi, Kelurahan Ketapang, Kecamatan Panjang, Kota Bandar Lampung, Lampung, Indonesia",
-    reverse: false
+    address:
+      "Jalan Soekarno Hatta Km. 7 Gang Multi, Kelurahan Ketapang, Kecamatan Panjang, Kota Bandar Lampung, Lampung, Indonesia",
+    reverse: false,
   },
   {
     imgUrls: [
@@ -33,8 +34,9 @@ export const ProductsList = [
     title: "Lematang Stock Field",
     landArea: "5 hectares",
     capacity: "500.000 MT",
-    address: "Jl. Ir. Sutami Dusun 02, Desa Lematang, Kecamatan Tanjung Bintang, Kabupaten Lampung Selatan, Lampung, Indonesia",
-    reverse: true
+    address:
+      "Jl. Ir. Sutami Dusun 02, Desa Lematang, Kecamatan Tanjung Bintang, Kabupaten Lampung Selatan, Lampung, Indonesia",
+    reverse: true,
   },
 ];
 
@@ -83,7 +85,6 @@ export default function ProductsAndServices() {
               ))}
             </Carousel>
             <div className="products__content">
-              <div className="products__accent">XX</div>
               <div className="products__title">{data.title}</div>
               <ul className="products__description">
                 <li>Land area: {data.landArea}</li>

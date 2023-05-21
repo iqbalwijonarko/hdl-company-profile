@@ -9,19 +9,19 @@ export type ProductServicesType = {
 
 export const ProductsServices: Array<ProductServicesType> = [
   {
-    imgUrl: "/products-services-1.png",
+    imgUrl: "/home1.jpg",
     title: "Coal Procurement",
     description:
       "We provide high quality coal    according   to customer    demand. Our coal is certified    by a reliable company,    such as : PT. Sucofindo ;  so we convince customers to offer the best product.",
   },
   {
-    imgUrl: "/products-services-2.png",
+    imgUrl: "/home2.jpg",
     title: "Local Delivery & Export",
     description:
       "For a smooth operation process PT. Hasta Dwiyustama Logistik provides land transportation from Stock Field to Port and also Freight Forwarding Service for export, import, and also domestic requests.",
   },
   {
-    imgUrl: "/products-services-3.png",
+    imgUrl: "/home3.jpg",
     title: "Product Consulting",
     description:
       "We have 2 (two) locations of Stock Field to rent as per Buyer’s need and we also offer customers warehousing for their break bulk cargo in the future.",
@@ -36,9 +36,13 @@ export default function home() {
           <div className="content__company-name">
             PT Hasta Dwiyustama Logistik
           </div>
-          <div className="content__title">Best Coal Company</div>
+          <div className="content__title">
+            Stockpile and Warehouses Handling
+          </div>
           <div className="content__description">
-            PT. HASTA DWIYUSTAMA LOGISTIK is an Indonesian company which primarily develops and provides land to use as a coal stock field and warehouse especially in Lampung Province, Indonesia. Established in 2021, PT. Hasta Dwiyustama Logistik also known as HDL becomes a leading company in providing coal stock field in Lampung Province, Indonesia.
+            PT. Hasta Dwiyustama Logistik is an Indonesian Company which
+            primarily provide lands to use as a coal stockfield/warehouses
+            especially in Lampung Provice, Indonesia.
           </div>
         </div>
       </div>

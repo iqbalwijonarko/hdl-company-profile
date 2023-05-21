@@ -6,7 +6,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-image: url("../../../public/product-and-services-landing.jpg");
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+      url("../../../public/csr-background.jpg");
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -35,6 +36,10 @@
       display: flex;
       justify-content: center;
       gap: 10px;
+
+      @media screen and (max-width: 800px) {
+        gap: 3px;
+      }
     }
 
     &__text {
@@ -48,6 +53,9 @@
       line-height: 140%;
       text-align: center;
       color: #bbd0fb;
+      @media screen and (max-width: 800px) {
+        line-height: 160%;
+      }
     }
   }
 }

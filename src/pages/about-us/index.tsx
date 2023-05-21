@@ -11,73 +11,40 @@ export type BoardOfDirectorsType = {
 export const BoardOfDirectors: Array<BoardOfDirectorsType> = [
   {
     imgUrl: "/person1.webp",
-    title: "Coal Procurement",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Director",
+    description: "Muhammad Rizky Rivaldi",
   },
   {
     imgUrl: "/person2.webp",
-    title: "Local Delivery & Export",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "Operation Director",
+    description: "Redy Surya Ivandi",
   },
   {
     imgUrl: "/person3.webp",
-    title: "Product Consulting",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-  },
-  {
-    imgUrl: "/person4.webp",
-    title: "Product Consulting",
-    description:
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+    title: "HRD and Public Relation Director",
+    description: "Dian Annisa Safitri",
   },
 ];
 
 export const Overview = [
   {
-    text: "Lorem Ipsum",
+    text: "Existing Customers:",
     subText: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
+      "CV. LAKSITA BUANA",
+      "PT. TUGANG RIZKY ENERGI",
+      "PT. RIZKY ANUGRAH PRATAMA",
+      "PT. LANGIT PURNAMA ABADI",
     ],
   },
   {
-    text: "Lorem Ipsum",
+    text: "Certificates and Permits",
     subText: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
+      "Surat Persetujuan Teknis Hasil Analisis Dampak Lalu Lintas dari Direktur Jenderal \nPerhubungan Darat Nomor : KP.618/LT.408/DJPD-ANDALALIN/2022",
+      "Surat Izin Lingkungan (UKL-UPL) from Dinas Lingkungan Hidup Kota Bandar Lampung",
+      "Surat Keputusan dari Kemenkumham No : AHU-0074216.AH.01.01.TAHUN 2022",
+      "Akta Pendirian Perusahaan No. 15 Tahun 2022",
+      "Nomor Induk Berusaha : 2510220126389",
     ],
-  },
-  {
-    text: "Lorem Ipsum",
-    subText: [
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-      "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-    ],
-  },
-];
-
-export const History = [
-  {
-    text: "2000",
-    subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-  },
-  {
-    text: "2001",
-    subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-  },
-  {
-    text: "2002",
-    subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
-  },
-  {
-    text: "2003",
-    subText: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do ",
   },
 ];
 
@@ -94,22 +61,25 @@ export default function AboutUs() {
           <div className="content__company-name">About Us</div>
           <div className="content__title">PT Hasta Dwiyustama Logistik</div>
           <div className="content__description">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            PT. HASTA DWIYUSTAMA LOGISTIK is a leading Indonesian company that
+            specializes in providing land for coal stock fields and warehouses
+            in Lampung Province, Indonesia. Established in 2021, HDL offers a
+            fully integrated process of coal stockpiling, land transportation
+            handling, freight forwarding services (both export and import), and
+            warehousing to ensure coal efficiency and effectiveness. HDL has two
+            stock field sites available for rent, with road access near Panjang
+            Port and Lematang Tol Gate, which can accommodate piles of coal up
+            to 200,000 MT and 500,000 MT respectively.
             <br />
             <br />
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-            eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
-            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-            aliquip ex ea commodo consequat. Duis aute irure dolor in
-            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-            pariatur. Excepteur sint occaecat cupidatat non proident, sunt in
-            culpa qui officia deserunt mollit anim id est laborum
+            HDL strives to guarantee customer satisfaction by providing
+            excellent services that prioritize efficiency, effectiveness, and
+            safety during the operational process. The company has a strong
+            commitment to face future challenges by strengthening its existing
+            businesses and developing new and promising ones. With the resources
+            and collaboration with all related parties, HDL is well-positioned
+            to continue leading the industry in providing coal stock field
+            services in Lampung Province, Indonesia.
           </div>
         </div>
       </div>
@@ -127,15 +97,6 @@ export default function AboutUs() {
                   </ul>
                 </>
               ))}
-            </div>
-          </>
-        ))}
-        <div className="company-info__title">History</div>
-        {History.map((data) => (
-          <>
-            <div className="company-info__highlight-text highlight-text">
-              {data.text}
-              <div className="highlight-text__sub-text2">{data.subText}</div>
             </div>
           </>
         ))}

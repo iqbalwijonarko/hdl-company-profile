@@ -104,6 +104,11 @@
       font-size: 14px;
       margin-bottom: 5px;
       line-height: 160%;
+
+      &__link {
+        color: white;
+        text-decoration: none;
+      }
     }
 
     &__social-icons {
