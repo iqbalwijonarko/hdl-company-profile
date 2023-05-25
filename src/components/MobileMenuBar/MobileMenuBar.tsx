@@ -64,7 +64,10 @@ function MobileMenuBar() {
             (data) =>
               data.label === "Home" && (
                 <>
-                  <Link href={data.url} className="menu-bar__label">
+                  <Link
+                    href={data.url}
+                    // className="menu-bar__label"
+                  >
                     <img src={"/logo_compressed.png"} alt="hdl-logo" />
                   </Link>
                 </>
@@ -85,7 +88,10 @@ function MobileMenuBar() {
                       ["drawer__labelActive"]: Boolean(pathRoute),
                     })}
                   >
-                    <Link href={data.url} className="drawer__link">
+                    <Link
+                      href={data.url}
+                      // className="drawer__link"
+                    >
                       {data.label}
                     </Link>
                   </ListItemText>
@@ -107,7 +113,10 @@ function MobileMenuBar() {
               (data) =>
                 data.label === "Home" && (
                   <>
-                    <Link href={data.url} className="menu-bar__label">
+                    <Link
+                      href={data.url}
+                      // className="menu-bar__label"
+                    >
                       <img src={"/logo_compressed.png"} alt="hdl-logo" />
                     </Link>
                   </>

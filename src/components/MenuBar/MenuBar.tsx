@@ -53,7 +53,10 @@ function MenuBar() {
               (data) =>
                 data.label === "Home" && (
                   <>
-                    <Link href={data.url} className="menu-bar__label">
+                    <Link
+                      href={data.url}
+                      // className="menu-bar__label"
+                    >
                       <img src={"/logo_compressed.png"} alt="hdl-logo" />
                     </Link>
                   </>
@@ -74,7 +77,10 @@ function MenuBar() {
                     ["menu-bar__labelActive"]: Boolean(pathRoute),
                   })}
                 >
-                  <Link href={data.url} className="menu-bar__label">
+                  <Link
+                    href={data.url}
+                    // className="menu-bar__label"
+                  >
                     {data.label}
                   </Link>
                 </span>
