@@ -90,7 +90,6 @@ export default function Footer() {
             <span className="right-content__navigation-item">
               <Link
                 href="/home"
-                // className="right-content__navigation-item__link"
               >
                 Home
               </Link>
@@ -98,7 +97,6 @@ export default function Footer() {
             <span className="right-content__navigation-item">
               <Link
                 href="/about-us"
-                // className="right-content__navigation-item__link"
               >
                 About Us
               </Link>
@@ -106,7 +104,6 @@ export default function Footer() {
             <span className="right-content__navigation-item">
               <Link
                 href="/products-and-services"
-                // className="right-content__navigation-item__link"
               >
                 Products and Services
               </Link>
@@ -114,7 +111,6 @@ export default function Footer() {
             <span className="right-content__navigation-item">
               <Link
                 href="/csr-programs"
-                // className="right-content__navigation-item__link"
               >
                 CSR Programs
               </Link>

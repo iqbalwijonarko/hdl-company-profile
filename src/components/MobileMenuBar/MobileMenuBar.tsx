@@ -66,7 +66,6 @@ function MobileMenuBar() {
                 <>
                   <Link
                     href={data.url}
-                    // className="menu-bar__label"
                   >
                     <img src={"/logo_compressed.png"} alt="hdl-logo" />
                   </Link>
@@ -90,7 +89,6 @@ function MobileMenuBar() {
                   >
                     <Link
                       href={data.url}
-                      // className="drawer__link"
                     >
                       {data.label}
                     </Link>

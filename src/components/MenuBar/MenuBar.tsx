@@ -55,7 +55,6 @@ function MenuBar() {
                   <>
                     <Link
                       href={data.url}
-                      // className="menu-bar__label"
                     >
                       <img src={"/logo_compressed.png"} alt="hdl-logo" />
                     </Link>
@@ -79,7 +78,6 @@ function MenuBar() {
                 >
                   <Link
                     href={data.url}
-                    // className="menu-bar__label"
                   >
                     {data.label}
                   </Link>
