@@ -78,8 +78,8 @@ export default function ProductsAndServices() {
               showStatus={false}
               className="products__carousel"
             >
-              {data.imgUrls.map(imgUrl => (
-                <div>
+              {data.imgUrls.map((imgUrl, index) => (
+                <div key={index}>
                   <img className="products__img" src={imgUrl} alt="" />
                 </div>
               ))}
