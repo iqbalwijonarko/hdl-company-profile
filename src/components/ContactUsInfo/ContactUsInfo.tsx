@@ -19,7 +19,10 @@ export default function ContactUsInfo() {
               </div>
               <div className="email__wrapper">
                 <div className="email__label">Email</div>
-                <a className="email__value" href="mailto: hastadwiyustama.logistik@gmail.com">
+                <a
+                  className="email__value"
+                  href="mailto: hastadwiyustama.logistik@gmail.com"
+                >
                   hastadwiyustama.logistik@gmail.com
                 </a>
               </div>
@@ -30,7 +33,9 @@ export default function ContactUsInfo() {
               </div>
               <div className="phone__wrapper">
                 <div className="phone__label">Phone</div>
-                <a className="phone__value" href="tel:+6281250709912">+62 812 5070 9912</a>
+                <a className="phone__value" href="tel:+6281250709912">
+                  +62 812 5070 9912
+                </a>
               </div>
             </div>
           </div>

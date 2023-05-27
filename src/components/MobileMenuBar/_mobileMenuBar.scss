@@ -4,11 +4,12 @@
     justify-content: center;
     padding: 1rem 0 0.5rem 0;
     border-bottom: 2px solid #000000;
+    cursor: pointer;
 
     &__icon {
       width: 100px;
       height: auto;
-    }    
+    }
   }
 
   &__main-logo {
@@ -16,6 +17,7 @@
     display: flex;
     justify-content: center;
     padding-right: 4rem;
+    cursor: pointer;
 
     &__icon {
       width: 100px;

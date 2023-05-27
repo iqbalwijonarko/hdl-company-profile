@@ -47,7 +47,9 @@ export default function Footer() {
             <div className="contact-us__title">Contact Us</div>
             <div className="contact-us__items">
               <img src={"/email-outline.svg"} alt="email-outline" />
-              <a href="mailto: hastadwiyustama.logistik@gmail.com">hastadwiyustama.logistik@gmail.com</a>
+              <a href="mailto: hastadwiyustama.logistik@gmail.com">
+                hastadwiyustama.logistik@gmail.com
+              </a>
             </div>
             <div className="contact-us__items">
               <img src={"/phone-outline.svg"} alt="phone-outline" />
