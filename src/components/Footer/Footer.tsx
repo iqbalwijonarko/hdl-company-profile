@@ -47,11 +47,11 @@ export default function Footer() {
             <div className="contact-us__title">Contact Us</div>
             <div className="contact-us__items">
               <img src={"/email-outline.svg"} alt="email-outline" />
-              <div>hastadwiyustama.logistik@gmail.com</div>
+              <a href="mailto: hastadwiyustama.logistik@gmail.com">hastadwiyustama.logistik@gmail.com</a>
             </div>
             <div className="contact-us__items">
               <img src={"/phone-outline.svg"} alt="phone-outline" />
-              <div>+62 812 5070 9912</div>
+              <a href="tel:+6281250709912">+62 812 5070 9912</a>
             </div>
           </div>
         </div>
@@ -63,7 +63,7 @@ export default function Footer() {
             <br />
             Bandar Lampung 35243
             <br />
-            Telp : +62 812 5070 9912
+            Telp : <a href="tel:+6281250709912">+62 812 5070 9912</a>
           </div>
 
           <div className="center-content__title">Plant Site</div>

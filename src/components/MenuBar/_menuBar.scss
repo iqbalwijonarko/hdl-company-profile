@@ -7,6 +7,11 @@
   padding: 0 1.5rem 0 1.5rem;
   background: #ffffff;
 
+  &__logo {
+    width: 100px;
+    height: auto;
+  }
+
   &__label {
     a {
       color: #1f1f1f !important;

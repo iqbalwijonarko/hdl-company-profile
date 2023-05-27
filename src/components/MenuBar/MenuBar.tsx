@@ -54,7 +54,7 @@ function MenuBar() {
                 data.label === "Home" && (
                   <>
                     <Link href={data.url}>
-                      <img src={"/logo_compressed.png"} alt="hdl-logo" />
+                      <img src={"/logo_compressed.svg"} alt="hdl-logo" className="menu-bar__logo"/>
                     </Link>
                   </>
                 )

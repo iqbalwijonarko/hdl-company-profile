@@ -101,6 +101,14 @@
       border-radius: 12px;
       background-color: white;
 
+      a:-webkit-any-link {
+        text-decoration: none;
+      }
+
+      a:hover {
+        opacity: .75;
+      }
+
       @media screen and (max-width: 800px) {
         width: 100%;
       }
@@ -139,6 +147,14 @@
       box-shadow: 0px 0px 8px rgba(29, 29, 29, 0.1);
       border-radius: 12px;
       background-color: white;
+
+      a:-webkit-any-link {
+        text-decoration: none;
+      }
+
+      a:hover {
+        opacity: .75;
+      }
 
       @media screen and (max-width: 800px) {
         width: 100%;
