@@ -13,9 +13,13 @@
     cursor: pointer;
   }
 
+  :hover {
+    opacity: 0.8;
+  }
+
   &__label {
     a {
-      color: #1f1f1f !important;
+      color: #000000;
       text-decoration: none !important;
       align-items: center;
       text-align: center;
