@@ -1,7 +1,18 @@
+import "react-responsive-carousel/lib/styles/carousel.min.css";
 import HeroHeader from "@/components/HeroHeader/HeroHeader";
 import ContactUsInfo from "@/components/ContactUsInfo/ContactUsInfo";
-import "react-responsive-carousel/lib/styles/carousel.min.css";
-import { Carousel } from 'react-responsive-carousel';
+import Slider, { Settings } from "react-slick";
+
+import { Carousel } from "react-responsive-carousel";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { FaArrowCircleLeft, FaArrowCircleRight } from "react-icons/fa";
+import {
+  faChevronLeft,
+  faChevronRight,
+} from "@fortawesome/free-solid-svg-icons";
+
+import "slick-carousel/slick/slick.css";
+import "slick-carousel/slick/slick-theme.css";
 
 export const ProductsAndServicesList = [
   "Stock Fields Rent",
@@ -12,11 +23,7 @@ export const ProductsAndServicesList = [
 
 export const ProductsList = [
   {
-    imgUrls: [
-      "product-1-1.jpg",
-      "product-1-2.jpg",
-      "product-1-3.jpg"
-    ],
+    imgUrls: ["product-1-1.jpg", "product-1-2.jpg", "product-1-3.jpg"],
     title: "Ketapang Stock Field",
     landArea: "2 hectares",
     capacity: "200.000 MT",
@@ -29,7 +36,7 @@ export const ProductsList = [
       "product-2-1.jpg",
       "product-2-2.jpg",
       "product-2-3.jpg",
-      "product-2-4.jpg"
+      "product-2-4.jpg",
     ],
     title: "Lematang Stock Field",
     landArea: "5 hectares",
@@ -40,13 +47,15 @@ export const ProductsList = [
   },
 ];
 
-const settings = {
-  dots: true,
+const settings: Settings = {
   infinite: true,
-  arrows: true,
-  speed: 500,
+  lazyLoad: "ondemand",
+  dots: false,
   slidesToShow: 1,
-  slidesToScroll: 1
+  slidesToScroll: 1,
+  arrows: true,
+  nextArrow: <FontAwesomeIcon icon={faChevronRight} color="black" size="sm" />,
+  prevArrow: <FontAwesomeIcon icon={faChevronLeft} color="black" size="sm" />,
 };
 
 export default function ProductsAndServices() {
@@ -71,19 +80,13 @@ export default function ProductsAndServices() {
             key={index}
             className={`products__wrapper ${data.reverse && "reverse"}`}
           >
-            <Carousel
-              emulateTouch={true}
-              showIndicators={false}
-              showThumbs={false}
-              showStatus={false}
-              className="products__carousel"
-            >
+            <Slider {...settings} className="products__carousel">
               {data.imgUrls.map((imgUrl, index) => (
-                <div key={index}>
+                <div key={index} className="relative">
                   <img className="products__img" src={imgUrl} alt="" />
                 </div>
               ))}
-            </Carousel>
+            </Slider>
             <div className="products__content">
               <div className="products__title">{data.title}</div>
               <ul className="products__description">

@@ -45,11 +45,10 @@
     }
 
     &__labelActive {
-      :hover,
-      :focus,
-      :active {
+      a {
         color: #1454b6;
         font-weight: 700;
+        border-bottom: 2px solid #1454b6;
       }
     }
 

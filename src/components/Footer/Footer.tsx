@@ -88,32 +88,16 @@ export default function Footer() {
           <div className="right-content__navigations">
             <div className="right-content__navigation-title">Navigation</div>
             <span className="right-content__navigation-item">
-              <Link
-                href="/home"
-              >
-                Home
-              </Link>
+              <Link href="/home">Home</Link>
             </span>
             <span className="right-content__navigation-item">
-              <Link
-                href="/about-us"
-              >
-                About Us
-              </Link>
+              <Link href="/about-us">About Us</Link>
             </span>
             <span className="right-content__navigation-item">
-              <Link
-                href="/products-and-services"
-              >
-                Products and Services
-              </Link>
+              <Link href="/products-and-services">Products and Services</Link>
             </span>
             <span className="right-content__navigation-item">
-              <Link
-                href="/csr-programs"
-              >
-                CSR Programs
-              </Link>
+              <Link href="/csr-programs">CSR Programs</Link>
             </span>
           </div>
           <div className="right-content__social-icons">

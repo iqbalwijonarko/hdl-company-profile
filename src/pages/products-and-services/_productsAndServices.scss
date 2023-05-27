@@ -1,4 +1,33 @@
 .products-and-services {
+  [class*="slick-arrow"] {
+    z-index: 99999;
+    color: rgb(108, 114, 124);
+    opacity: 19;
+    width: 30px;
+    height: 30px;
+    background-color: #fff;
+    background-size: 100%;
+    border-radius: 50%;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box !important;
+    padding: 7px 1px;
+
+    &:hover {
+      background-color: #fff;
+      color: rgb(108, 114, 124);
+    }
+  }
+
+  [class*="slick-prev"] {
+    position: absolute;
+    left: 7px;
+  }
+
+  [class*="slick-next"] {
+    position: absolute;
+    right: 7px;
+  }
+
   .company-info {
     margin-top: 7rem;
 

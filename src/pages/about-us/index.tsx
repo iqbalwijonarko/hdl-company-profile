@@ -14,16 +14,16 @@ export const BoardOfDirectors: Array<BoardOfDirectorsType> = [
     title: "Director",
     description: "Muhammad Rizky Rivaldi",
   },
-  {
-    imgUrl: "/person2.webp",
-    title: "Operation Director",
-    description: "Redy Surya Ivandi",
-  },
-  {
-    imgUrl: "/person3.webp",
-    title: "HRD and Public Relation Director",
-    description: "Dian Annisa Safitri",
-  },
+  // {
+  //   imgUrl: "/person2.webp",
+  //   title: "Operation Director",
+  //   description: "Redy Surya Ivandi",
+  // },
+  // {
+  //   imgUrl: "/person3.webp",
+  //   title: "HRD and Public Relation Director",
+  //   description: "Dian Annisa Safitri",
+  // },
 ];
 
 export const Overview = [

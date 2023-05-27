@@ -67,9 +67,7 @@ export default function home() {
               </div>
             ))}
           </div>
-          <Link
-            href="/products-and-services"
-          >
+          <Link href="/products-and-services">
             <button className="products-services__read-more">Read More</button>
           </Link>
         </div>

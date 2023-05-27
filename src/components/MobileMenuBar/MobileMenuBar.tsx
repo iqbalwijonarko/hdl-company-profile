@@ -48,7 +48,6 @@ function MobileMenuBar() {
     setIsOpen((prevState) => !prevState);
   };
 
-  console.log(`openDrawer`, openDrawer);
   return (
     <>
       <Drawer
@@ -64,9 +63,7 @@ function MobileMenuBar() {
             (data) =>
               data.label === "Home" && (
                 <>
-                  <Link
-                    href={data.url}
-                  >
+                  <Link href={data.url}>
                     <img src={"/logo_compressed.png"} alt="hdl-logo" />
                   </Link>
                 </>
@@ -84,14 +81,10 @@ function MobileMenuBar() {
                   <ListItemText
                     className={clsx({
                       ["drawer__label"]: true,
-                      ["drawer__labelActive"]: Boolean(pathRoute),
+                      ["menu-bar__labelActive"]: data?.url === pathRoute,
                     })}
                   >
-                    <Link
-                      href={data.url}
-                    >
-                      {data.label}
-                    </Link>
+                    <Link href={data.url}>{data.label}</Link>
                   </ListItemText>
                 </>
               </ListItem>
