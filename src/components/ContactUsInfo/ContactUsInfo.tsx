@@ -27,7 +27,7 @@ export default function ContactUsInfo() {
                 </a>
               </div>
             </div>
-            <div className="right-content__phone phone">
+            {/* <div className="right-content__phone phone">
               <div className="phone__logo-wrapper">
                 <img className="phone__logo" src={"/phone.svg"} alt="phone" />
               </div>
@@ -37,7 +37,7 @@ export default function ContactUsInfo() {
                   +62 812 5070 9912
                 </a>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

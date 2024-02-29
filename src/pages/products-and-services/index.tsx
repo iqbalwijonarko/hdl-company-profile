@@ -23,7 +23,7 @@ export const ProductsAndServicesList = [
 
 export const ProductsList = [
   {
-    imgUrls: ["product-1-1.jpg", "product-1-2.jpg", "product-1-3.jpg"],
+    imgUrls: ["banner.png", "banner2.png"],
     title: "Ketapang Stock Field",
     landArea: "2 hectares",
     capacity: "200.000 MT",
@@ -33,10 +33,7 @@ export const ProductsList = [
   },
   {
     imgUrls: [
-      "product-2-1.jpg",
-      "product-2-2.jpg",
-      "product-2-3.jpg",
-      "product-2-4.jpg",
+      "banner.png", "banner2.png"
     ],
     title: "Lematang Stock Field",
     landArea: "5 hectares",
